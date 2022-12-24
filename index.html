@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.whatsapp.net/rsrc.php/v3/yz/r/ujTY9i_Jhs1.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -18,7 +19,7 @@
     <header class="header-sec">
         <nav class="navbar navbar-expand-lg navbar-light  bg-white fixed-top navbar-nav-sec bg-opacity-50">
             <div class="container-fluid justify-content-between">
-                <div><a class="navbar-brand" href="#"><img id="whatsapp-logo" src="assets/image/DSxOAUB0raA.png"
+                <div class="whatsapp-logo-div"><a class="navbar-brand" href="#"><img id="whatsapp-logo" src="assets/image/DSxOAUB0raA.png"
                             alt=""></a></div>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -85,7 +86,7 @@
                     </div>
 
                     <div class="three-cards row">
-                        <div class="col-lg-3 col-6 cards">
+                        <div class="col-lg-3 col-12 col-md-6 cards">
                             <div class="card-inner">
                                 <div>
                                     <h6>Mobile</h6>
@@ -102,7 +103,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-3 col-6 cards">
+                        <div class="col-lg-3 col-12 col-md-6 cards">
                             <div class="card-inner">
                                 <div>
                                     <h6>Mobile</h6>
@@ -119,11 +120,11 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3 col-12 cards">
+                        <div class="col-lg-3 col-12 col-md-12 cards">
                             <div class="card-inner">
                                 <h6>Desktop</h6>
                                 <h3>Supported Version</h3>
-                                <span>Mac OS X 10.10 & higher
+                                <span class="d-o-span"><p class="desktop-os">Mac OS X 10.10 & higher</p>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         class="_wauiIcon__download-alternative _agnt _9u4c">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -134,8 +135,20 @@
                                             fill="currentColor"></path>
                                     </svg>
                                 </span>
-                                <span>
-                                    Windows 10 & higher
+                                <span class="d-o-span">
+                                   <p class="desktop-os"> Windows 10 & higher</p>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        class="_wauiIcon__download-alternative _agnt _9u4c">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.75 13.75C13.75 14.1642 13.4142 14.5 13 14.5L3 14.5C2.58579 14.5 2.25 14.1642 2.25 13.75C2.25 13.3358 2.58579 13 3 13L13 13C13.4142 13 13.75 13.3358 13.75 13.75Z"
+                                            fill="currentColor"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M8.7487 2C8.7487 1.58579 8.41291 1.25 7.9987 1.25C7.58448 1.25 7.2487 1.58579 7.2487 2L7.2487 9.53955L3.19233 5.51449C2.89831 5.22274 2.42344 5.22458 2.13168 5.5186C1.83993 5.81263 1.84177 6.2875 2.13579 6.57925L7.46912 11.8714C7.76154 12.1616 8.23325 12.1616 8.52567 11.8714L13.859 6.57926C14.153 6.2875 14.1549 5.81263 13.8631 5.5186C13.5714 5.22458 13.0965 5.22274 12.8025 5.51449L8.7487 9.53697L8.7487 2Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span >
+                                <span class="bit-ver">(64-bit version)</span>
+                                <span class="d-o-span"><p class="desktop-os">Windows 10 & higher</p>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         class="_wauiIcon__download-alternative _agnt _9u4c">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -146,43 +159,63 @@
                                             fill="currentColor"></path>
                                     </svg>
                                 </span>
-                                <span>Windows 10 & higher
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        class="_wauiIcon__download-alternative _agnt _9u4c">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M13.75 13.75C13.75 14.1642 13.4142 14.5 13 14.5L3 14.5C2.58579 14.5 2.25 14.1642 2.25 13.75C2.25 13.3358 2.58579 13 3 13L13 13C13.4142 13 13.75 13.3358 13.75 13.75Z"
-                                            fill="currentColor"></path>
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M8.7487 2C8.7487 1.58579 8.41291 1.25 7.9987 1.25C7.58448 1.25 7.2487 1.58579 7.2487 2L7.2487 9.53955L3.19233 5.51449C2.89831 5.22274 2.42344 5.22458 2.13168 5.5186C1.83993 5.81263 1.84177 6.2875 2.13579 6.57925L7.46912 11.8714C7.76154 12.1616 8.23325 12.1616 8.52567 11.8714L13.859 6.57926C14.153 6.2875 14.1549 5.81263 13.8631 5.5186C13.5714 5.22458 13.0965 5.22274 12.8025 5.51449L8.7487 9.53697L8.7487 2Z"
-                                            fill="currentColor"></path>
-                                    </svg>
-                                </span>
-
+                                <span class="bit-ver">(32-bit version)</span>
                             </div>
-
                         </div>
-
                     </div>
                     <div class="col-12">
                         <p id="visit-download">Visit <u>whatsapp.com/dl</u> on your mobile phone to install</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
     <section class="sec2">
         <div class="container">
-            <div class="row">
-                <div style="background-color: rebeccapurple; height: 500px;" class="col-lg-5 col-12">
-                <h2>Already <br>downloaded?</h2>
-                <p>Learn more about what you can do on whatsapp</p>
+            <div class="row" style="padding-top: 96px;">
+                <div class="col-lg-5 col-12 already-dnd">
+                    <h2>Already <br>downloaded?</h2>
+                    <p>Learn more about what you can do on WhatsApp</p>
                 </div>
-                <div style="background-color: rgb(24, 248, 62); height: 500px;" class="col-lg-7 col-12"></div>
-            </div>
+                <div class="col-lg-7 col-12 photo-list">
+                    <div class="photo-wrapper">
+                        <div class="hor-img-list">
+                            <img src="assets/image/0.png" alt="" class="hor-img-list">
+                            <div>
+                                <h3>Message <br> Privately</h3>
+                            </div>
+                            <span>Learn more <svg class="_abjs _agnt _9u4c" width="10" height="15" viewBox="0 0 10 18" fill="none"><path d="M0.879395 13.0463L6.41356 7.5L0.879395 1.95375L2.58314 0.25L9.83315 7.5L2.58314 14.75L0.879395 13.0463Z" fill="currentColor"></path></svg></span>
+                        </div>
+                        <div class="hor-img-list">
+                            <img src="assets/image/1.png" alt="" class="hor-img-list">
+                            <div>
+                                <h3>Stay <br>Connected</h3>
+                            </div>
+                            <span>Learn more <svg class="_abjs _agnt _9u4c" width="10" height="15" viewBox="0 0 10 18" fill="none"><path d="M0.879395 13.0463L6.41356 7.5L0.879395 1.95375L2.58314 0.25L9.83315 7.5L2.58314 14.75L0.879395 13.0463Z" fill="currentColor"></path></svg></span>
+                        </div>
+                        <div class="hor-img-list">
+                            <img src="assets/image/2.png" alt="" class="hor-img-list">
+                            <div>
+                                <h3>Build<br>Community</h3>
+                            </div>
+                            <span>Learn more <svg class="_abjs _agnt _9u4c" width="10" height="15" viewBox="0 0 10 18" fill="none"><path d="M0.879395 13.0463L6.41356 7.5L0.879395 1.95375L2.58314 0.25L9.83315 7.5L2.58314 14.75L0.879395 13.0463Z" fill="currentColor"></path></svg></span>
+                        </div>
+                    </div>
 
+                </div>
+
+            </div>
         </div>
+        </div>
+    </section>
+    <section class="aa">
+        <div class="bottom-section">
+            <div class="">
+                <div class="rounded-div"></div>
+            </div>
+        </div>
+
+
     </section>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>

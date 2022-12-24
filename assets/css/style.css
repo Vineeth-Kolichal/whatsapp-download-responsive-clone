@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
 }
 
 .downlaod-btn {
@@ -68,16 +68,30 @@ body {
         padding-top: 20px;
         font-size: 16px !important;
     }
-    #download-whatsapp
-    {
+
+    #download-whatsapp {
         font-size: 32px !important;
     }
-    .cards{
+
+    .cards {
         display: flex;
         justify-content: center;
         margin: 5px;
     }
-   
+    nav .navbar-toggler
+    {
+        position: absolute;
+        left: 0;
+    }
+    #whatsapp-logo
+    {
+       margin-left: 40px;
+    }
+    .down-btn-div
+    {
+        width: 23px;
+    }
+
 }
 
 .nav-link {
@@ -98,6 +112,10 @@ body {
 
 }
 
+/* .row
+{
+    font-family: 'Lato', sans-serif !important; 
+} */
 .what-web-div {
     /* display: inline-block; */
     text-align: center;
@@ -140,14 +158,13 @@ body {
         max-width: 1080px !important;
     }
 }
-@media (max-width: 991px)
-{
-    .sec1
-    {
-        height:1670px !important;
+
+@media (max-width: 991px) {
+    .sec1 {
+        height: 1670px !important;
     }
-    #visit-download
-    {
+
+    #visit-download {
         margin-top: 814px !important;
     }
 }
@@ -159,20 +176,20 @@ body {
 #stay-conn-div {
     padding-left: 69px;
 }
-.three-cards
-{
+
+.three-cards {
     display: flex;
     justify-content: center;
     height: 388px;
 }
-.cards
-{
+
+.cards {
     height: 388px;
     width: 268px;
-    margin-bottom:1px 5px 20px 5px;
+    margin: 1px 5px 20px 5px;
 }
-.card-inner
-{
+
+.card-inner {
     height: 388px;
     width: 252px;
     background-color: #111b21;
@@ -182,49 +199,157 @@ body {
 
 
 }
-.card-inner h6{
+
+.card-inner h6 {
     text-align: center;
     font-size: 12px;
     /* display: block; */
     height: 10px;
 }
-.card-inner h3
-{
+
+.card-inner h3 {
     text-align: center;
     font-size: 48px;
     font-weight: 400;
     /* display: block; */
 }
-.card-inner p
-{
+
+.card-inner p {
     font-size: 12px;
     text-align: center;
 }
-.card-inner img
+.desktop-os
 {
+    border-bottom: solid 2px #25d366;
+    font-size: 16px !important;
+    margin-right: 5px;
+    margin-bottom: 0;
+    
+}
+.d-o-span
+{
+    display: flex;
+    margin-top: 15px;
+}
+.d-o-span svg{
+    margin-top: 5px;
+}
+.bit-ver
+{
+    font-size: 12px;
+}
+.card-inner img {
     width: 197px;
     height: 76px;
     margin: 93px 0px 0px 12px;
 }
-.privacy-policy
-{
+
+.privacy-policy {
     font-size: 12px;
 }
-.card-inner:hover
-{
+
+.card-inner:hover {
     background-color: #25d366;
     color: black;
 }
-#visit-download
-{
+
+#visit-download {
     text-align: center;
     margin-top: 50px;
 }
-.navbar-nav-sec
-{
+
+.navbar-nav-sec {
     --bs-bg-opacity: .5;
 }
-.sec2
-{
+
+.sec2 {
     height: 635px;
+}
+
+.bottom-section {
+    height: 400px;
+
+    background-color: #1c1e21;
+}
+
+.rounded-div {
+    height: 40px;
+    background-color: white;
+    border-bottom-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+}
+
+.already-dnd {
+    /* height: 400px; */
+    /* background-color: aqua; */
+    font-family: 'Lato', sans-serif;
+
+}
+
+.photo-list {
+    height: 400px;
+    /* background-color: #25d366; */
+    display: inline-block;
+}
+
+.already-dnd h2 {
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+.already-dnd p {
+    font-size: 18px;
+}
+
+.hor-img-list {
+    display: inline-block;
+    /* width: 328px; */
+    height: 400px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.hor-img-list h3 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.hor-img-list span {
+    font-size: 16px;
+    border-bottom: solid 2px #25d366;
+}
+
+.hor-img-list img {
+    width: 328px;
+    height: 248px;
+    margin: 0px;
+    border-radius: 15px;
+}
+
+.photo-wrapper {
+    display: flex;
+}
+
+@media (max-width:580px) {
+    .hor-img-list img {
+        width: 164px;
+        height: 124px;
+    }
+
+    .hor-img-list h3 {
+        font-size: 24px;
+        margin-top: 18px;
+    }
+
+    .hor-img-list span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:992px) {
+    .hor-img-list img {
+        width: 220px;
+        height: 160px;
+    }
 }
