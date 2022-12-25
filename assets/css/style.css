@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
+    overflow-x: hidden;
     font-family: 'Lato', sans-serif !important;
 }
 
@@ -78,17 +79,17 @@ body {
         justify-content: center;
         margin: 5px;
     }
-    nav .navbar-toggler
-    {
+
+    nav .navbar-toggler {
         position: absolute;
         left: 0;
     }
-    #whatsapp-logo
-    {
-       margin-left: 40px;
+
+    #whatsapp-logo {
+        margin-left: 40px;
     }
-    .down-btn-div
-    {
+
+    .down-btn-div {
         width: 23px;
     }
 
@@ -167,6 +168,18 @@ body {
     #visit-download {
         margin-top: 814px !important;
     }
+
+    .bottom-section {
+        height: 700px !important;
+    }
+
+    .footer-sec {
+        height: 200px !important;
+    }
+    .lang-button
+{
+    width: 160px !important;
+}
 }
 
 #stay-connected {
@@ -218,26 +231,28 @@ body {
     font-size: 12px;
     text-align: center;
 }
-.desktop-os
-{
+
+.desktop-os {
     border-bottom: solid 2px #25d366;
     font-size: 16px !important;
     margin-right: 5px;
     margin-bottom: 0;
-    
+
 }
-.d-o-span
-{
+
+.d-o-span {
     display: flex;
     margin-top: 15px;
 }
-.d-o-span svg{
+
+.d-o-span svg {
     margin-top: 5px;
 }
-.bit-ver
-{
+
+.bit-ver {
     font-size: 12px;
 }
+
 .card-inner img {
     width: 197px;
     height: 76px;
@@ -352,4 +367,94 @@ body {
         width: 220px;
         height: 160px;
     }
+}
+
+.heading {
+    color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.down-content {
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.downlaod-btn-dw {
+    border: solid 1px black;
+    border-radius: 50px;
+    background: #25d366;
+    height: 56px;
+    width: 156px;
+    transition: background 2s;
+    margin-left: 10px;
+}
+
+
+.downlaod-btn-dw svg {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+
+.downlaod-btn-dw:hover {
+    background: rgb(252, 250, 250);
+}
+
+.button-down-bottom {
+    margin-top: 75px;
+}
+
+.white-whatsapp {
+    margin-left: 15px;
+}
+
+.down-sec-items {
+    margin-bottom: 20px;
+}
+
+.footer-sec {
+    height: 126px;
+    background-color: #1c1e21;
+}
+
+.spn-w-llc {
+    font-size: 12px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+
+}
+
+.foot-buttons {
+    background-color: transparent;
+    border: solid 1px white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.foot-buttons:hover {
+    color: black;
+    background-color: #25d366;
+}
+.lang-button
+{
+    width: 220px;
+    height: 53px;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    padding: 13px 18px 0px 18px;
+    justify-content: space-between;
+}
+.lang-button img{
+    width: 12px;
+    height: 12px;
 }
