@@ -176,10 +176,13 @@ body {
     .footer-sec {
         height: 200px !important;
     }
-    .lang-button
-{
-    width: 160px !important;
-}
+
+    .lang-button {
+        width: 160px !important;
+    }
+    .sec2 {
+        height: 760px !important;
+    }
 }
 
 #stay-connected {
@@ -336,8 +339,8 @@ body {
 }
 
 .hor-img-list img {
-    width: 328px;
-    height: 248px;
+    width: 328px !important;
+    height: 248px !important;
     margin: 0px;
     border-radius: 15px;
 }
@@ -442,8 +445,8 @@ body {
     color: black;
     background-color: #25d366;
 }
-.lang-button
-{
+
+.lang-button {
     width: 220px;
     height: 53px;
     background-color: transparent;
@@ -454,7 +457,24 @@ body {
     padding: 13px 18px 0px 18px;
     justify-content: space-between;
 }
-.lang-button img{
+
+.lang-button img {
     width: 12px;
     height: 12px;
+}
+
+.item {
+    width: 330px !important;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-nav button {
+    float: left !important;
+    width: 48px;
+    height: 48px;
+    border: solid 1px black !important;
+    border-radius: 40px !important;
 }
